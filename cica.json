@@ -1,0 +1,28 @@
+{
+    "homepage": "https://miiton.github.io/Cica/",
+    "description": "Japanese monospace font for programming: Hack + RoundMgen+ + devicons",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/miiton/Cica/blob/master/LICENSE.txt"
+    },
+    "depends": [
+        "jp-util-font"
+    ],
+
+    "version": "4.1.1",
+    "url": "https://github.com/miiton/Cica/releases/download/v4.1.1/Cica-v4.1.1.zip",
+    "hash": "884733b723cc6896786c2e2c6e1778cc928fd6e1baac03169d18d553959067a2",
+    "checkver": {
+        "github": "https://github.com/miiton/Cica"
+    },
+    "autoupdate": {
+        "url": "https://github.com/miiton/Cica/releases/download/v$version/Cica-v$version.zip"
+    },
+
+    "installer": {
+        "script": "jp-util-font $true $dir 'Cica-*.ttf'"
+    },
+    "uninstaller": {
+        "script": "jp-util-font $false $dir 'Cica-*.ttf'"
+    }
+}
