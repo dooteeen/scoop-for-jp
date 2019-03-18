@@ -1,17 +1,16 @@
 {
     "homepage": "https://github.com/koron/vim-kaoriya",
     "description": "Vim + kaoriya build system.",
-
-    "version": "8.1.0005.20180520",
+    "version": "8.1.1010.20190317",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/koron/vim-kaoriya/releases/download/v8.1.0005-20180520/vim81-kaoriya-win32-8.1.0005-20180520.zip",
-            "hash": "afacd6e27304136f5ebae3edddf6e747f410880fa6a986d80be772e03ef56d36",
+            "url": "https://github.com/koron/vim-kaoriya/releases/download/v8.1.1010-20190317/vim81-kaoriya-win32-8.1.1010-20190317.zip",
+            "hash": "231da4e64ff89f9bee2ad08c18df1c1ffc3348ee06cf51e175bef845330ff3c6",
             "extract_dir": "vim81-kaoriya-win32"
         },
         "64bit": {
-            "url": "https://github.com/koron/vim-kaoriya/releases/download/v8.1.0005-20180520/vim81-kaoriya-win64-8.1.0005-20180520.zip",
-            "hash": "53e8dd08e2249ce8a54784e16469151a7bf9857ac9acf3a1b341ac4e7da26fb2",
+            "url": "https://github.com/koron/vim-kaoriya/releases/download/v8.1.1010-20190317/vim81-kaoriya-win64-8.1.1010-20190317.zip",
+            "hash": "806d6cd44fd2245149b354367fc82fafc7d59a07d17e6b0fcf611a73d2326ee2",
             "extract_dir": "vim81-kaoriya-win64"
         }
     },
@@ -32,12 +31,27 @@
             }
         }
     },
-
     "bin": [
-        ["vim.exe", "vim", ""],
-        ["vim.exe", "vimk", ""],
-        ["gvim.exe", "gvim", ""],
-        ["gvim.exe", "gvimk", ""]
+        [
+            "vim.exe",
+            "vim",
+            ""
+        ],
+        [
+            "vim.exe",
+            "vimk",
+            ""
+        ],
+        [
+            "gvim.exe",
+            "gvim",
+            ""
+        ],
+        [
+            "gvim.exe",
+            "gvimk",
+            ""
+        ]
     ],
     "shortcuts": [
         [
