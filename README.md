@@ -55,5 +55,5 @@ explorer %USERPROFILE%\JpFonts
 ## 追加・修正・削除など
 
 すべて当リポジトリのIssuesにて受け付けています。  
-[CONTRIBUTING](https://github.com/rkbk60/scoop-for-jp/blob/master/CONTRIBUTING.md)も作りましたので、ぜひご覧ください。
+[CONTRIBUTING](https://bitcuket.org/rkbk60/scoop-for-jp/blob/master/CONTRIBUTING.md)も作りましたので、ぜひご覧ください。
 
