@@ -3,15 +3,15 @@
     "description": "The UNIXLike Commandline Shell for Windows",
     "license": "BSD 3-Clause",
     "##": "reference: tetradice/scoop-iyokan-jp/nyagos.json",
-    "version": "4.4.3_0",
+    "version": "4.4.4_2",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.3_0/nyagos-4.4.3_0-windows-386.zip",
-            "hash": "02a88233f6d8f490cf9e15f80c61bc38ed26014f4ad2551d48f8901aa2ab6569"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.4_2/nyagos-4.4.4_2-windows-386.zip",
+            "hash": "5438d123e6b0cefd9781806105634095f9e591cafe7bcd2ea486084fadd7fde4"
         },
         "64bit": {
-            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.3_0/nyagos-4.4.3_0-windows-amd64.zip",
-            "hash": "1dc366465073817b283d573aa721606185af9b8f4e5a786ed29b2ba9cdd3b0f5"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.4_2/nyagos-4.4.4_2-windows-amd64.zip",
+            "hash": "1831f2252cd2344a93f22ba3f8966e37d03f2e697cddf7760573f2ebead1bd7c"
         }
     },
     "checkver": {
