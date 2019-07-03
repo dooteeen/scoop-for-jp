@@ -3,9 +3,9 @@
     "description": "Japanese monospace font for programming: Hack + RoundMgen+ + devicons",
     "license": "OFL-1.1",
     "depends": "jp-util-font",
-    "version": "4.1.2",
-    "url": "https://github.com/miiton/Cica/releases/download/v4.1.2/Cica_v4.1.2.zip",
-    "hash": "4c11e3097fad1146db878a6df0bb4f94ae10177d07fb58db293c657a0f6f8d0f",
+    "version": "5.0.1",
+    "url": "https://github.com/miiton/Cica/releases/download/v5.0.1/Cica_v5.0.1_without_emoji.zip",
+    "hash": "609a34b6fdf3bedd1949a58717f347b82d041ebfb9cbcd977cf57b171cefa1cd",
     "checkver": {
         "url": "https://github.com/miiton/Cica/releases",
         "re": "(?<head>Cica[-_]v)(?<version>[\\d.]+)(?<detail>[\\w_]+).zip"
