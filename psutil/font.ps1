@@ -111,3 +111,4 @@ if (is_admin) {
         uninstall_local  $dir $wildcard
     }
 }
+

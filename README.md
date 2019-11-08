@@ -57,3 +57,4 @@ explorer %USERPROFILE%\JpFonts
 すべて当リポジトリのIssuesにて受け付けています。  
 [CONTRIBUTING](https://bitcuket.org/rkbk60/scoop-for-jp/blob/master/CONTRIBUTING.md)も作りましたので、ぜひご覧ください。
 
+
