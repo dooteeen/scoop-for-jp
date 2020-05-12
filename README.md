@@ -17,7 +17,6 @@
 - Cica: `cica`
 - Myrica: `myrica`
 - MyricaM: `myrica-m`
-- Ricty Diminished: `ricty-diminished`
 - Source Han Code JP: `source-han-code-jp`
 
 ### 収録終了
