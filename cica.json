@@ -4,11 +4,12 @@
     "license": "OFL-1.1",
     "depends": "jp-util-font",
     "version": "5.0.1",
-    "url": "https://github.com/miiton/Cica/releases/download/v5.0.1/Cica_v5.0.1_without_emoji.zip",
-    "hash": "609a34b6fdf3bedd1949a58717f347b82d041ebfb9cbcd977cf57b171cefa1cd",
+    "url": "https://github.com/miiton/Cica/releases/download/v5.0.1/Cica_v5.0.1_with_emoji.zip",
+    "hash": "b61ae55fb1a4a98dd78e90fe68649bcfaabb20a5eaaffa57c246356890c6b0df",
     "checkver": {
-        "url": "https://github.com/miiton/Cica/releases",
-        "re": "(?<head>Cica[-_]v)(?<version>[\\d.]+)(?<detail>[\\w_]+).zip"
+        "url": "https://github.com/miiton/Cica/releases/latest",
+        "re": "(?<head>Cica[-_]v)(?<version>[\\d.]+)(?<detail>[\\w_]+).zip",
+        "reverse": true
     },
     "autoupdate": {
         "url": "https://github.com/miiton/Cica/releases/download/v$version/$matchHead$version$matchDetail.zip"
