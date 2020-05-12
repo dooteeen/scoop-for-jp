@@ -10,8 +10,8 @@
 
 ### アプリ
 - NTEmacs(更新終了): `emacs-nt`
-- KaoriYa版Vim: `vim-kaoriya`
 - nkf: `nkf`
+- KaoriYa版Vim: `vim-kaoriya`
 - WinMerge 日本語版: `winmerge-jp`
 
 ### フォント
