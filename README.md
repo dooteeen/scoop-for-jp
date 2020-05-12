@@ -11,6 +11,7 @@
 ### アプリ
 - NTEmacs(更新終了): `emacs-nt`
 - KaoriYa版Vim: `vim-kaoriya`
+- nkf: `nkf`
 
 ### フォント
 - Cica: `cica`
