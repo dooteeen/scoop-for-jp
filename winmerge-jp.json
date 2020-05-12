@@ -1,0 +1,44 @@
+{
+    "version": "2.16.6.4",
+    "description": "Differencing and merging tool, that compares both folders and files, presenting differences in a visual text format that is easy to understand and handle.",
+    "homepage": "https://winmergejp.bitbucket.io/",
+    "license": "GPL-2.0-only",
+    "suggest": {
+        "vcredist2008": "extras/vcredist2008"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.6-jp-4-exe.zip",
+            "hash": "b7aba35485626b85e5c538f77374c3b2fa661d6af3c8c661a4b892b07301a68d"
+        },
+        "64bit": {
+            "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.6-jp-4-x64-exe.zip",
+            "hash": "6c944869b35c6d5cd3d5f462fed575cebd7685a70446007c48dff9425aa86c63"
+        }
+    },
+    "extract_dir": "WinMerge",
+
+    "checkver": {
+        "re": "<td nowrap=\"\">(?<v1>[\\d]+.[\\d]+.[\\d]+)+-jp-(?<v2>[\\d]+)</td>",
+        "replace": "${v1}.${v2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://osdn.net/dl/winmerge-jp/winmerge-$matchV1-jp-$matchV2-exe.zip"
+            },
+            "64bit": {
+                "url": "https://osdn.net/dl/winmerge-jp/winmerge-$matchV1-jp-$matchV2-x86-exe.zip"
+            }
+        }
+    },
+
+    "bin": "WinMergeU.exe",
+    "shortcuts": [
+        [
+            "WinMergeU.exe",
+            "WinMerge"
+        ]
+    ]
+}
+
