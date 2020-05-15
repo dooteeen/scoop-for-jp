@@ -19,7 +19,7 @@
     "extract_dir": "WinMerge",
 
     "checkver": {
-        "re": "<td nowrap>(?<v1>[\\d]+.[\\d]+.[\\d]+)+-jp-(?<v2>[\\d]+)</td>",
+        "re": "WinMerge-(?<v1>[\\d]+.[\\d]+.[\\d]+)-jp-(?<v2>[\\d]+)-Setup.exe",
         "replace": "${v1}.${v2}"
     },
     "autoupdate": {
