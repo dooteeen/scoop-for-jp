@@ -28,7 +28,7 @@
                 "url": "https://osdn.net/dl/winmerge-jp/winmerge-$matchV1-jp-$matchV2-exe.zip"
             },
             "64bit": {
-                "url": "https://osdn.net/dl/winmerge-jp/winmerge-$matchV1-jp-$matchV2-x86-exe.zip"
+                "url": "https://osdn.net/dl/winmerge-jp/winmerge-$matchV1-jp-$matchV2-x64-exe.zip"
             }
         }
     },
