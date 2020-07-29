@@ -12,7 +12,7 @@
 - NTEmacs(更新終了): `emacs-nt`
 - nkf: `nkf`
 - KaoriYa版Vim: `vim-kaoriya`
-- WinMerge 日本語版: `winmerge-jp`
+- WinMerge 日本語版: `winmerge-jp` (手動更新のみ)
 
 ### フォント
 - Cica: `cica`
