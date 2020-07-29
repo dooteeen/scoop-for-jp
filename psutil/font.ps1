@@ -40,25 +40,29 @@ function install_ttf_fonts {
     Param($fontdir, $target, $wildcard)
     $postfix = ' (TrueType)'
     Get-ChildItem $fontdir -Filter $wildcard | ForEach-Object {
-        log "registering $_ ..."
+        $font = $_.Name
+        $extension = $_.Extension
+        log "registering $font ..."
         New-ItemProperty -Path $regist `
-                         -Name $_.Name.Replace($_.Extension, $postfix)`
-                         -Value $_.Name `
+                         -Name $font.Replace($extension, $postfix)`
+                         -Value $font`
                          -Force `
             | Out-Null
-        Copy-Item "$fontdir\$_" -Destination "$target\"
+        Copy-Item "$fontdir\$font" -Destination "$target\"
     }
 }
 function uninstall_ttf_fonts {
     Param($fontdir, $target, $wildcard)
     $postfix = ' (TrueType)'
     Get-ChildItem $fontdir -Filter $wildcard | ForEach-Object {
-        log "unregistering $_ ..."
+        $font = $_.Name
+        $extension = $_.Extension
+        log "unregistering $font ..."
         Remove-ItemProperty -Path $regist `
-                            -Name $_.Name.Replace($_.Extension, $postfix) `
+                            -Name $font.Replace($extension, $postfix) `
                             -ErrorAction SilentlyContinue `
                             -Force
-        Remove-Item "$target\$($_.Name)" -ErrorAction SilentlyContinue -Force
+        Remove-Item "$target\$font" -ErrorAction SilentlyContinue -Force
     }
 }
 
